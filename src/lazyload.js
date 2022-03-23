@@ -3,7 +3,7 @@ const isIntersecting = (entry) => {
 }
 
 const loadImage = (entry) => {
-    console.log('holis');
+    console.log('Image Added');
     const container = entry.target; //Contaier (div)
     const image = container.firstChild;
     const url = image.dataset.src;
