@@ -1,3 +1,10 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 8px;
+    width: 300px;
+}
